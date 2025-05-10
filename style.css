@@ -48,7 +48,8 @@ del{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA6wvbNQhp7TOwbEBQap8PD0w8HnGkFwK7FA&s);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 700px;
+  
+    max-width: 500px;
     max-height: 800px;
 
     padding: 100px;
@@ -57,7 +58,7 @@ del{
     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjCPjj3Ua2TygGj4_guuBGpS3RRVeWDFBnWw&s);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 700px;
+    max-width: 500px;
     max-height: 800px;
    box-shadow: 2px 2px 5px rgb(252, 248, 248);
     padding: 100px;
@@ -71,4 +72,14 @@ del{
 .ease a:hover{
     font-size: 19px;
     border-bottom: 2px solid rgb(240, 81, 81);
+}
+@media (min-width: 768px) {
+    .Contact input,
+    .Contact textarea {
+        width: 100%;
+    }
+
+    .Contact .btn {
+        width: 100%;
+    }
 }
